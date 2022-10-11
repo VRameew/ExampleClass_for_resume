@@ -17,7 +17,6 @@ class TreeStore:
 
     def getItem(self, id_object: int):
         for item in self.object:
-            # print(item)
             if item['id'] == id_object:
                 return item
 
